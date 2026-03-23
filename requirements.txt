@@ -4,58 +4,58 @@
 #
 #    pip-compile
 #
-aiohttp==3.9.1
+aiohttp==3.13.3
     # via
     #   -r requirements.in
     #   gql
-aiosignal==1.3.1
+aiosignal==1.4.0
     # via aiohttp
-alembic==1.13.0
+alembic==1.18.4
     # via
     #   -r requirements.in
     #   flask-migrate
-arrow==1.3.0
+arrow==1.4.0
     # via fedmsg
-attrs==23.1.0
+attrs==26.1.0
     # via
     #   aiohttp
     #   automat
     #   twisted
-automat==22.10.0
+automat==25.4.16
     # via twisted
 backoff==2.2.1
     # via
     #   -r requirements.in
     #   gql
-beautifulsoup4==4.12.2
+beautifulsoup4==4.14.3
     # via python-fedora
-certifi==2023.11.17
+certifi==2026.2.25
     # via requests
-cffi==1.16.0
+cffi==2.0.0
     # via cryptography
-charset-normalizer==3.3.2
+charset-normalizer==3.4.6
     # via requests
-click==8.1.7
+click==8.3.1
     # via flask
 constantly==23.10.4
     # via twisted
-cryptography==41.0.7
+cryptography==46.0.5
     # via
     #   pyopenssl
     #   pyspnego
     #   requests-kerberos
-decorator==5.1.1
+decorator==5.2.1
     # via
     #   dogpile-cache
     #   gssapi
     #   moksha-common
 defusedxml==0.7.1
     # via -r requirements.in
-dogpile-cache==1.2.2
+dogpile-cache==1.5.0
     # via -r requirements.in
 fedmsg==1.1.7
     # via -r requirements.in
-flask==2.2.5
+flask==3.1.3
     # via
     #   -r requirements.in
     #   flask-login
@@ -63,38 +63,38 @@ flask==2.2.5
     #   flask-sqlalchemy
 flask-login==0.6.2
     # via -r requirements.in
-flask-migrate==4.0.5
+flask-migrate==4.1.0
     # via -r requirements.in
-flask-sqlalchemy==2.5.1
+flask-sqlalchemy==3.1.1
     # via
     #   -r requirements.in
     #   flask-migrate
-frozenlist==1.4.0
+frozenlist==1.8.0
     # via
     #   aiohttp
     #   aiosignal
-gql[aiohttp,requests]==3.5.0b8
+gql[aiohttp,requests]==4.0.0
     # via -r requirements.in
 graphql-core==3.3.0a3
     # via gql
-greenlet==3.0.2
+greenlet==3.3.2
     # via sqlalchemy
-gssapi==1.8.3
+gssapi==1.11.1
     # via
     #   pyspnego
     #   requests-gssapi
-httplib2==0.22.0
+httplib2==0.31.2
     # via -r requirements.in
 hyperlink==21.0.0
     # via twisted
-idna==3.6
+idna==3.11
     # via
     #   hyperlink
     #   requests
     #   yarl
-incremental==22.10.0
+incremental==24.11.0
     # via twisted
-itsdangerous==2.1.2
+itsdangerous==2.2.0
     # via flask
 jinja2==3.1.2
     # via flask
@@ -105,28 +105,28 @@ kitchen==1.2.6
     #   fedmsg
     #   moksha-common
     #   python-fedora
-kobo==0.35.0
+kobo==0.41.0
     # via -r requirements.in
-koji==1.33.1
+koji==1.35.3
     # via -r requirements.in
-krb5==0.5.1
+krb5==0.9.0
     # via pyspnego
 lockfile==0.12.2
     # via python-fedora
 mako==1.3.0
     # via alembic
-markupsafe==2.1.3
+markupsafe==3.0.3
     # via
     #   jinja2
     #   mako
     #   werkzeug
-mock==5.1.0
+mock==5.2.0
     # via -r requirements.in
 moksha-common==1.2.5
     # via moksha-hub
 moksha-hub==1.5.17
     # via -r requirements.in
-multidict==6.0.5
+multidict==6.7.1
     # via
     #   aiohttp
     #   yarl
@@ -134,64 +134,64 @@ munch==4.0.0
     # via
     #   -r requirements.in
     #   python-fedora
-mypy-extensions==1.0.0
+mypy-extensions==1.1.0
     # via -r requirements.in
-odcs[client]==0.7.0
+odcs[client]==0.9.2
     # via -r requirements.in
 openidc-client==0.6.0
     # via
     #   odcs
     #   python-fedora
-pbr==6.0.0
+pbr==7.0.3
     # via stevedore
-prometheus-client==0.19.0
+prometheus-client==0.24.1
     # via -r requirements.in
-psutil==5.9.6
+psutil==7.2.2
     # via -r requirements.in
-pyasn1==0.5.1
+pyasn1==0.6.3
     # via
     #   pyasn1-modules
     #   python-ldap
-pyasn1-modules==0.3.0
+pyasn1-modules==0.4.2
     # via python-ldap
-pycairo==1.25.1
+pycairo==1.29.0
     # via pygobject
-pycparser==2.21
+pycparser==3.0
     # via cffi
-pygments==2.17.2
+pygments==2.19.2
     # via -r requirements.in
-pygobject==3.46.0
+pygobject==3.56.1
     # via -r requirements.in
 pyldap==3.0.0.post1
     # via -r requirements.in
-pyopenssl==23.3.0
+pyopenssl==26.0.0
     # via -r requirements.in
-pyparsing==3.1.1
+pyparsing==3.3.2
     # via httplib2
-pyspnego[kerberos]==0.10.2
+pyspnego[kerberos]==0.12.1
     # via requests-kerberos
-python-dateutil==2.8.2
+python-dateutil==2.9.0.post0
     # via
     #   arrow
     #   koji
 python-fedora==1.1.1
     # via -r requirements.in
-python-json-logger==2.0.7
+python-json-logger==4.0.0
     # via -r requirements.in
 python-ldap==3.4.4
     # via
     #   -r requirements.in
     #   pyldap
-pytz==2023.3.post1
+pytz==2026.1.post1
     # via moksha-common
 pyyaml==6.0.1
     # via -r requirements.in
-pyzmq==25.1.2
+pyzmq==27.1.0
     # via
     #   fedmsg
     #   moksha-hub
     #   txzmq
-requests==2.31.0
+requests==2.32.5
     # via
     #   -r requirements.in
     #   fedmsg
@@ -203,19 +203,19 @@ requests==2.31.0
     #   requests-gssapi
     #   requests-kerberos
     #   requests-toolbelt
-requests-gssapi==1.2.3
+requests-gssapi==1.4.0
     # via
     #   koji
     #   odcs
-requests-kerberos==0.14.0
+requests-kerberos==0.15.0
     # via -r requirements.in
 requests-toolbelt==1.0.0
     # via gql
-rpm==0.1.0
+rpm==0.4.0
     # via -r requirements.in
-semver==2.13.0
+semver==3.0.4
     # via -r requirements.in
-six==1.16.0
+six==1.17.0
     # via
     #   automat
     #   fedmsg
@@ -224,18 +224,18 @@ six==1.16.0
     #   moksha-common
     #   python-dateutil
     #   python-fedora
-soupsieve==2.5
+soupsieve==2.8.3
     # via beautifulsoup4
-sqlalchemy==1.4.50
+sqlalchemy==2.0.48
     # via
     #   -r requirements.in
     #   alembic
     #   flask-sqlalchemy
-stevedore==5.1.0
+stevedore==5.7.0
     # via dogpile-cache
-tabulate==0.9.0
+tabulate==0.10.0
     # via -r requirements.in
-twisted==23.10.0
+twisted==25.5.0
     # via
     #   moksha-hub
     #   txzmq
@@ -243,27 +243,27 @@ txws==0.9.1
     # via moksha-hub
 txzmq==1.0.0
     # via moksha-hub
-types-python-dateutil==2.8.19.14
+types-python-dateutil==2.9.0.20260305
     # via arrow
-typing-extensions==4.9.0
+typing-extensions==4.15.0
     # via
     #   alembic
     #   twisted
-urllib3==2.1.0
+urllib3==2.6.3
     # via
     #   python-fedora
     #   requests
-werkzeug==2.3.8
+werkzeug==3.1.6
     # via
     #   -r requirements.in
     #   flask
     #   flask-login
-yarl==1.9.4
+yarl==1.23.0
     # via
     #   -r requirements.in
     #   aiohttp
     #   gql
-zope-interface==6.1
+zope-interface==8.2
     # via twisted
 
 # The following packages are considered to be unsafe in a requirements file:
