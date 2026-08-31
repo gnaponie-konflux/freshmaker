@@ -61,7 +61,7 @@ flask==2.2.5
     #   flask-login
     #   flask-migrate
     #   flask-sqlalchemy
-flask-login==0.6.2
+flask-login==0.6.3
     # via -r requirements.in
 flask-migrate==4.0.5
     # via -r requirements.in
@@ -75,7 +75,7 @@ frozenlist==1.4.0
     #   aiosignal
 gql[aiohttp,requests]==3.5.0b8
     # via -r requirements.in
-graphql-core==3.3.0a3
+graphql-core==3.3.0rc1
     # via gql
 greenlet==3.0.2
     # via sqlalchemy
@@ -96,9 +96,9 @@ incremental==22.10.0
     # via twisted
 itsdangerous==2.1.2
     # via flask
-jinja2==3.1.2
+jinja2==3.1.6
     # via flask
-jsonformatter==0.3.2
+jsonformatter==0.3.4
     # via -r requirements.in
 kitchen==1.2.6
     # via
@@ -178,13 +178,13 @@ python-fedora==1.1.1
     # via -r requirements.in
 python-json-logger==2.0.7
     # via -r requirements.in
-python-ldap==3.4.4
+python-ldap==3.4.7
     # via
     #   -r requirements.in
     #   pyldap
 pytz==2023.3.post1
     # via moksha-common
-pyyaml==6.0.1
+pyyaml==6.0.3
     # via -r requirements.in
 pyzmq==25.1.2
     # via
