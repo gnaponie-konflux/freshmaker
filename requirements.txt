@@ -164,7 +164,7 @@ pygobject==3.46.0
     # via -r requirements.in
 pyldap==3.0.0.post1
     # via -r requirements.in
-pyopenssl==23.3.0
+pyopenssl==26.0.0
     # via -r requirements.in
 pyparsing==3.1.1
     # via httplib2
