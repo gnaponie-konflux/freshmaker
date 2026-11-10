@@ -83,7 +83,7 @@ gssapi==1.8.3
     # via
     #   pyspnego
     #   requests-gssapi
-httplib2==0.22.0
+httplib2==0.32.0
     # via -r requirements.in
 hyperlink==21.0.0
     # via twisted
