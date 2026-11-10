@@ -113,7 +113,7 @@ krb5==0.5.1
     # via pyspnego
 lockfile==0.12.2
     # via python-fedora
-mako==1.3.0
+mako==1.4.2
     # via alembic
 markupsafe==2.1.3
     # via
