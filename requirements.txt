@@ -224,7 +224,7 @@ six==1.16.0
     #   moksha-common
     #   python-dateutil
     #   python-fedora
-soupsieve==2.5
+soupsieve==4.0
     # via beautifulsoup4
 sqlalchemy==1.4.50
     # via
